@@ -1,0 +1,11 @@
+# Open main.py by default for students
+tabs: ['main.py']
+
+# Start the FastAPI server automatically
+terminals: ['pip3 install -r requirements.txt && uvicorn main:app --host 0.0.0.0 --port 1337 --reload']
+
+# Set the view to show terminal, editor, and browser
+playground-view: terminal-editor-browser
+
+# Browser will show the FastAPI app
+# browser-link: https://$$domain.codedamn.app:1337
